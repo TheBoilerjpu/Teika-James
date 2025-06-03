@@ -1,0 +1,517 @@
+fileFormatVersion: 2
+guid: 7598b19a3403b45d9b54301a175bf2a0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8262035751232301647
+    second: Sports1-sheetamimations_0
+  - first:
+      213: -5767391199925071115
+    second: Sports1-sheetamimations_1
+  - first:
+      213: -5353887117596090343
+    second: Sports1-sheetamimations_2
+  - first:
+      213: -707315589554249946
+    second: Sports1-sheetamimations_3
+  - first:
+      213: 2106967690163640161
+    second: Sports1-sheetamimations_4
+  - first:
+      213: 608285678944692634
+    second: Sports1-sheetamimations_5
+  - first:
+      213: -6168224618026943072
+    second: Sports1-sheetamimations_6
+  - first:
+      213: -3837403223066088864
+    second: Sports1-sheetamimations_7
+  - first:
+      213: 1963079218204924936
+    second: Sports1-sheetamimations_8
+  - first:
+      213: 1061590534523600214
+    second: Sports1-sheetamimations_9
+  - first:
+      213: 6874887544430614939
+    second: Sports1-sheetamimations_10
+  - first:
+      213: -1155219282787626758
+    second: Sports1-sheetamimations_11
+  - first:
+      213: 1970326582427289812
+    second: Sports1-sheetamimations_12
+  - first:
+      213: -4389918255982088979
+    second: Sports1-sheetamimations_13
+  - first:
+      213: 5269132849711244634
+    second: Sports1-sheetamimations_14
+  - first:
+      213: -4874817794091378070
+    second: Sports1-sheetamimations_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sports1-sheetamimations_0
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 137
+        width: 98
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4a67c9ddb5a8a270800000000000000
+      internalID: 8262035751232301647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sports1-sheetamimations_1
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 137
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f290c7b24c16ffa0800000000000000
+      internalID: -5767391199925071115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sports1-sheetamimations_2
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 131
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 910252c580c23b5b0800000000000000
+      internalID: -5353887117596090343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sports1-sheetamimations_3
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 131
+        width: 137
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62fd584083c1f26f0800000000000000
+      internalID: -707315589554249946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sports1-sheetamimations_4
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 113
+        width: 158
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 167dd6573f37d3d10800000000000000
+      internalID: 2106967690163640161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sports1-sheetamimations_5
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 119
+        width: 146
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a99a4772a90117800800000000000000
+      internalID: 608285678944692634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sports1-sheetamimations_6
+      rect:
+        serializedVersion: 2
+        x: 2393
+        y: 89
+        width: 206
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ad3fabf360166aa0800000000000000
+      internalID: -6168224618026943072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sports1-sheetamimations_7
+      rect:
+        serializedVersion: 2
+        x: 2741
+        y: 53
+        width: 278
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06ae43d991ecebac0800000000000000
+      internalID: -3837403223066088864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sports1-sheetamimations_8
+      rect:
+        serializedVersion: 2
+        x: 3215
+        y: 137
+        width: 98
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80c5e0be5224e3b10800000000000000
+      internalID: 1963079218204924936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sports1-sheetamimations_9
+      rect:
+        serializedVersion: 2
+        x: 3599
+        y: 137
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65d323377f68bbe00800000000000000
+      internalID: 1061590534523600214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sports1-sheetamimations_10
+      rect:
+        serializedVersion: 2
+        x: 3971
+        y: 131
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b995b840cc1886f50800000000000000
+      internalID: 6874887544430614939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sports1-sheetamimations_11
+      rect:
+        serializedVersion: 2
+        x: 4334
+        y: 131
+        width: 137
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af013c3de26d7ffe0800000000000000
+      internalID: -1155219282787626758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sports1-sheetamimations_12
+      rect:
+        serializedVersion: 2
+        x: 4721
+        y: 113
+        width: 158
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d886156691085b10800000000000000
+      internalID: 1970326582427289812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sports1-sheetamimations_13
+      rect:
+        serializedVersion: 2
+        x: 5105
+        y: 119
+        width: 146
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dec6f2fda90e313c0800000000000000
+      internalID: -4389918255982088979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sports1-sheetamimations_14
+      rect:
+        serializedVersion: 2
+        x: 5465
+        y: 89
+        width: 206
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a556165e868bf1940800000000000000
+      internalID: 5269132849711244634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sports1-sheetamimations_15
+      rect:
+        serializedVersion: 2
+        x: 5813
+        y: 53
+        width: 278
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6a1e6e4b0b295cb0800000000000000
+      internalID: -4874817794091378070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
