@@ -8,21 +8,45 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -79593865423643798, guid: 626a37ef91c264023a7113001bb75e78, type: 3}
+      propertyPath: m_Radius
+      value: 1.0601335
+      objectReference: {fileID: 0}
+    - target: {fileID: -79593865423643798, guid: 626a37ef91c264023a7113001bb75e78, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.005281653
+      objectReference: {fileID: 0}
+    - target: {fileID: -79593865423643798, guid: 626a37ef91c264023a7113001bb75e78, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.0014890092
+      objectReference: {fileID: 0}
     - target: {fileID: 1782879927453441159, guid: 626a37ef91c264023a7113001bb75e78, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 5840788925283690632, guid: 2e948262cf76a4331a3493cc176b48a5, type: 3}
+    - target: {fileID: 2662907696286323799, guid: 626a37ef91c264023a7113001bb75e78, type: 3}
+      propertyPath: m_Radius
+      value: 1.0404243
+      objectReference: {fileID: 0}
+    - target: {fileID: 2662907696286323799, guid: 626a37ef91c264023a7113001bb75e78, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.0063158786
+      objectReference: {fileID: 0}
+    - target: {fileID: 2662907696286323799, guid: 626a37ef91c264023a7113001bb75e78, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.01954879
+      objectReference: {fileID: 0}
     - target: {fileID: 3057304321887694552, guid: 626a37ef91c264023a7113001bb75e78, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.6
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: 3057304321887694552, guid: 626a37ef91c264023a7113001bb75e78, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.6
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: 3057304321887694552, guid: 626a37ef91c264023a7113001bb75e78, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.6
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: 3057304321887694552, guid: 626a37ef91c264023a7113001bb75e78, type: 3}
       propertyPath: m_LocalPosition.x
@@ -68,7 +92,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: soccer
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 9098139379513734824, guid: 626a37ef91c264023a7113001bb75e78, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 2.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 9098139379513734824, guid: 626a37ef91c264023a7113001bb75e78, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.06
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 9098139379513734824, guid: 626a37ef91c264023a7113001bb75e78, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
