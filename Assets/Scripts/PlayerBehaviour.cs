@@ -17,18 +17,22 @@ public class PlayerBehaviour : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (sport != null)
+        if (currentSport != null)
         {
             Vector3 sportOffset = new Vector3(0f, -1f, 0f);
-            sport.transform.position = transform.position + sportOffset;
-            sport.GetComponent<PolygonCollider2D>().enabled = false;
-            sport.GetComponent<Rigidbody2D>().gravityScale = 0f;
+            currentSport.transform.position = transform.position + sportOffset;
+            //currentSport.GetComponent<PolygonCollider2D>().enabled = false;
+            currentSport.GetComponent<Rigidbody2D>().gravityScale = 0f;
+        }
+        else
+        {
+            currentSport = Instantiate(sport, transform.position, Quaternion.identity);
         }
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            sport.GetComponent<PolygonCollider2D>().enabled = true;
-            sport.GetComponent<Rigidbody2D>().gravityScale = 1f;
-            sport = null;
+            currentSport.GetComponent<PolygonCollider2D>().enabled = true;
+            currentSport.GetComponent<Rigidbody2D>().gravityScale = 1f;
+            currentSport = null;
         }
 
             if (Input.GetKeyDown(KeyCode.LeftArrow))
