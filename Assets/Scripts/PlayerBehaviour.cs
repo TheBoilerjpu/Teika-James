@@ -9,13 +9,16 @@ public class PlayerBehaviour : MonoBehaviour
     public GameObject currentSport;
     public float min;
     public float max;
+    public GameObject gameOver;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
     }
-
+    public void GameOver()
+    {
+        gameOver.SetActive(true);
+    }
     // Update is called once per frame
     void Update()
     {

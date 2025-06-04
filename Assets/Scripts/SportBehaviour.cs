@@ -5,7 +5,7 @@ public class SportBehaviour : MonoBehaviour
     public float timeout;
     public float timeStart;
     public float timeThusFar;
-    public GameObject gmeOver;
+    public GameObject gameOver;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -20,17 +20,27 @@ public class SportBehaviour : MonoBehaviour
     }
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("You entered the trigger of:" + collision.gameObject.name);
-        timeStart = Time.time; //Get current Time
+        string tag = collision.gameObject.tag;
+        Debug.Log("You entered the trigger of:" + collision.gameObject.tag);
+        if (collision.gameObject.CompareTag("Top"))
+        {
+            Debug.Log("Game over Timer started at: " + timeStart);
+            timeStart = Time.time; //Get current Time
+        }
     }
     public void OnTriggerStay2D(Collider2D collision)
     {
-        Debug.Log("Trigger Stay on:" + collision.gameObject.name);
-        timeThusFar = Time.time - timeStart;
-        Debug.Log("Game over Timer updated: " + timeThusFar);
-        if (timeThusFar >= timeout)
+        string tag = collision.gameObject.tag;
+        Debug.Log("Trigger Stay on:" + collision.gameObject.tag);
+        if (tag.Equals("Top"))
         {
-            Debug.Log("Game over");
+            timeThusFar = Time.time - timeStart;
+            Debug.Log("Game over Timer updated: " + timeThusFar);
+            if (timeThusFar >= timeout)
+            {
+                //Debug.Log("Game over");
+                GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerBehaviour>().GameOver();
+            }
         }
     }
 }

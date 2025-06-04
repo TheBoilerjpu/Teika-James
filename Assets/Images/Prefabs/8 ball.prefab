@@ -86,7 +86,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3465125963141732007, guid: 626a37ef91c264023a7113001bb75e78, type: 3}
       propertyPath: m_TagString
-      value: Ball
+      value: Sport
       objectReference: {fileID: 0}
     - target: {fileID: 9098139379513734824, guid: 626a37ef91c264023a7113001bb75e78, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
