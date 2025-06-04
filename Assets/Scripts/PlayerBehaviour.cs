@@ -5,8 +5,10 @@ public class PlayerBehaviour : MonoBehaviour
 
 
     public float speed;
-    public GameObject sport;
+    public GameObject[] sports;
     public GameObject currentSport;
+    public float min;
+    public float max;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -26,7 +28,8 @@ public class PlayerBehaviour : MonoBehaviour
         }
         else
         {
-            currentSport = Instantiate(sport, transform.position, Quaternion.identity);
+            int index = Random.Range(0, sports.Length);
+            currentSport = Instantiate(sports[index], transform.position, Quaternion.identity);
         }
         if (Input.GetKeyDown(KeyCode.Space))
         {
@@ -35,17 +38,23 @@ public class PlayerBehaviour : MonoBehaviour
             currentSport = null;
         }
 
-            if (Input.GetKeyDown(KeyCode.LeftArrow))
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            Vector3 newPosition = transform.position;
+            newPosition.x = newPosition.x - speed;
+            if (newPosition.x > min)
             {
-                Vector3 newPosition = transform.position;
-                newPosition.x = newPosition.x - speed;
                 transform.position = newPosition;
             }
-            if (Input.GetKeyDown(KeyCode.RightArrow))
+        }
+        if (Input.GetKeyDown(KeyCode.RightArrow))
             {
                 Vector3 newPosition = transform.position;
                 newPosition.x = newPosition.x + speed;
+            if (newPosition.x < max)
+            {
                 transform.position = newPosition;
+            }
             }
         
     }
