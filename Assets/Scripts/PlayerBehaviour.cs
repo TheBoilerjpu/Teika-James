@@ -1,5 +1,5 @@
 using UnityEngine;
-
+using TMPro;
 public class PlayerBehaviour : MonoBehaviour
 {
 
@@ -9,20 +9,37 @@ public class PlayerBehaviour : MonoBehaviour
     public GameObject currentSport;
     public float min;
     public float max;
-    public GameObject gameOver;
+    public GameObject gameOverT;
+
+    public int[] points;
+    public int score;
+    public TMP_Text scoreText;
+    private float timer;
+    public float timerThreshold;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        score = 0;
+        timer = 0;
     }
+
+    public void UpdateScore(int sportType)
+    {
+        score = score + points[sportType];
+        scoreText.text = "Score: " + score;
+    }
+
     public void GameOver()
     {
-        gameOver.SetActive(true);
+        gameOverT.SetActive(true);
     }
+
     // Update is called once per frame
     void Update()
     {
-        if (currentSport != null)
+        timer += Time.deltaTime;
+            if (currentSport != null)
         {
             Vector3 sportOffset = new Vector3(0f, -1f, 0f);
             currentSport.transform.position = transform.position + sportOffset;
@@ -34,8 +51,9 @@ public class PlayerBehaviour : MonoBehaviour
             int index = Random.Range(0, sports.Length);
             currentSport = Instantiate(sports[index], transform.position, Quaternion.identity);
         }
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space)&& (timer >= timerThreshold))
         {
+            timer = 0;
             currentSport.GetComponent<PolygonCollider2D>().enabled = true;
             currentSport.GetComponent<Rigidbody2D>().gravityScale = 1f;
             currentSport = null;

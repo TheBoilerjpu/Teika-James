@@ -8,6 +8,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -6316404285773764693, guid: 626a37ef91c264023a7113001bb75e78, type: 3}
+      propertyPath: sportType
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: -79593865423643798, guid: 626a37ef91c264023a7113001bb75e78, type: 3}
       propertyPath: m_Radius
       value: 0.8016483
@@ -79,6 +83,10 @@ PrefabInstance:
     - target: {fileID: 3465125963141732007, guid: 626a37ef91c264023a7113001bb75e78, type: 3}
       propertyPath: m_Name
       value: basketball
+      objectReference: {fileID: 0}
+    - target: {fileID: 4062768619477301256, guid: 626a37ef91c264023a7113001bb75e78, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9098139379513734824, guid: 626a37ef91c264023a7113001bb75e78, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
