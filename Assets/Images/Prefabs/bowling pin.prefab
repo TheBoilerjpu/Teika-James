@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5516292580329660350}
   - component: {fileID: 9098139379513734824}
   - component: {fileID: -6316404285773764693}
+  - component: {fileID: 4062768619477301256}
   m_Layer: 0
   m_Name: bowling pin
   m_TagString: Sport
@@ -239,3 +240,25 @@ MonoBehaviour:
   timeStart: 0
   timeThusFar: 0
   gameOver: {fileID: 0}
+--- !u!95 &4062768619477301256
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3465125963141732007}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4056ad782cdc940a98747ae200d6fb3f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
