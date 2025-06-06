@@ -16,14 +16,21 @@ public class PlayerBehaviour : MonoBehaviour
     public TMP_Text scoreText;
     private float timer;
     public float timerThreshold;
+    public AudioSource dropSound;
+    public AudioSource mergeSound;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         score = 0;
         timer = 0;
+        dropSound = GetComponents<AudioSource>()[0];
+        mergeSound = GetComponents<AudioSource>()[1];
     }
-
+    public void PlayMerge()
+    {
+        mergeSound.Play();
+    }
     public void UpdateScore(int sportType)
     {
         score = score + points[sportType];
@@ -53,6 +60,7 @@ public class PlayerBehaviour : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Space)&& (timer >= timerThreshold))
         {
+            dropSound.Play();
             timer = 0;
             currentSport.GetComponent<PolygonCollider2D>().enabled = true;
             currentSport.GetComponent<Rigidbody2D>().gravityScale = 1f;

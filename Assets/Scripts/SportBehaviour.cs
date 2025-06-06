@@ -8,7 +8,7 @@ public class SportBehaviour : MonoBehaviour
     public GameObject[] sports;
     public int sportType;
     public GameObject gameOver;
-
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -40,6 +40,8 @@ public class SportBehaviour : MonoBehaviour
                        otherSport.transform.position, 0.5f), Quaternion.identity);
                     newSport.GetComponent<Collider2D>().enabled = true;
                     newSport.GetComponent<Rigidbody2D>().gravityScale = 1f;
+
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerBehaviour>().PlayMerge();
                     Destroy(otherSport);
                     Destroy(gameObject);
                 }
