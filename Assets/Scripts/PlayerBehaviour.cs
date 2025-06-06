@@ -18,6 +18,7 @@ public class PlayerBehaviour : MonoBehaviour
     public float timerThreshold;
     public AudioSource dropSound;
     public AudioSource mergeSound;
+    public GameObject queue;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -46,7 +47,7 @@ public class PlayerBehaviour : MonoBehaviour
     void Update()
     {
         timer += Time.deltaTime;
-            if (currentSport != null)
+        if (currentSport != null)
         {
             Vector3 sportOffset = new Vector3(0f, -1f, 0f);
             currentSport.transform.position = transform.position + sportOffset;
@@ -58,7 +59,7 @@ public class PlayerBehaviour : MonoBehaviour
             int index = Random.Range(0, 5);
             currentSport = Instantiate(sports[index], transform.position, Quaternion.identity);
         }
-        if (Input.GetKeyDown(KeyCode.Space)&& (timer >= timerThreshold))
+        if (Input.GetKeyDown(KeyCode.Space) && (timer >= timerThreshold))
         {
             dropSound.Play();
             timer = 0;
@@ -77,14 +78,18 @@ public class PlayerBehaviour : MonoBehaviour
             }
         }
         if (Input.GetKeyDown(KeyCode.RightArrow))
-            {
-                Vector3 newPosition = transform.position;
-                newPosition.x = newPosition.x + speed;
+        {
+            Vector3 newPosition = transform.position;
+            newPosition.x = newPosition.x + speed;
             if (newPosition.x < max)
             {
                 transform.position = newPosition;
             }
-            }
-        
+        }
+        if (currentSport == null)
+        {
+            currentSport = Instantiate(sports[queue.GetComponent<QueueBehaviour>().queuedSports[0]], transform.position, Quaternion.identity);
+            queue.GetComponent<QueueBehaviour>().UpdateQueue();
+        }
     }
 }
