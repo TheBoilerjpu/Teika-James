@@ -48,7 +48,7 @@ public class PlayerBehaviour : MonoBehaviour
         }
         else
         {
-            int index = Random.Range(0, sports.Length);
+            int index = Random.Range(0, 5);
             currentSport = Instantiate(sports[index], transform.position, Quaternion.identity);
         }
         if (Input.GetKeyDown(KeyCode.Space)&& (timer >= timerThreshold))
